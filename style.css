@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+.hero {
+  height: 500px;
+  background-image: url("img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+.container {
+  margin: 0px 320px;
+}
+.hero-container {
+  padding-top: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.hero-item:not(:first-child) {
+  margin-left: 50px;
+}
+.hero-item {
+  font-size: 24px;
+}
+.button {
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 400px;
+}
+.hero-header {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 70px;
+}
+.hero-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.hero-item:active {
+  opacity: 0.5;
+}
+.button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.section2-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.fotka {
+  object-fit: cover;
+}
+.fotka-1 {
+  object-position: -5px 0px;
+}
+.fotka-2 {
+  object-position: -5px -57px;
+}
+.fotka-3 {
+  object-position: -5px -115px;
+}
+.section2-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.item-zag {
+  color: tomato;
+  margin: 9px;
+}
+.item-post {
+  margin: 0px;
+}
+.container-ots {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section2-item:not(:last-child) {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 70px;
+}
+.footer {
+    background-color: black;
+}
+.logo {
+    margin-top: 10px;
+    text-align: left;
+}
+.button1 {
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+    text-align: right;
+    border: 2px solid white;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    border-radius: 400px;
+    padding-bottom: 11px;
+}
+.button1:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.footer-top {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.zag-f {
+    color: white;
+}
+.txt {
+    color: white;
+}
+    
+    .uslugi {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+  
+
+    }
+    .all {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .zag{
+        padding-bottom: 10px;
+        font-size: 25px;
+        list-style: none;
+    }
+    .txt:not(:last-of-type)
+    {
+        display: flex;
+        flex-direction: column; 
+    }
+    .txt{
+        list-style: none;
+    }
